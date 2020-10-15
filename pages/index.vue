@@ -1,9 +1,13 @@
 <template>
-  <h1>hello</h1>
+  <hello />
 </template>
 
-<script lang="ts">
+<script>
+import hello from '~/components/hello'
 
+export default {
+
+}
 </script>
 
 <style>
