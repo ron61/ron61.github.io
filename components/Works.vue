@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h2>Basic Info</h2>
+        <h2>Works</h2>
         <p>Frontend Engineering</p>
         <p>History</p>
         <p>Beer</p>
@@ -16,5 +16,6 @@ export default {
 <style scoped>
 .container {
     text-align: center;
+    background-color: rgb(255, 214, 223);
 }
 </style>

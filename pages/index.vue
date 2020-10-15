@@ -1,7 +1,10 @@
 <template>
   <div>
     <Top />
-    <BasicInfo />
+    <About />
+    <Skill />
+    <Works />
+    <Contact />
   </div>
 </template>
 
