@@ -70,7 +70,8 @@ typings/
 
 # Nuxt generate
 # dist/
-docs/
+# これをignoreするとデプロイできないことに気づいた．．．しょうがないのか？解決策ありそう
+# docs/
 
 # vuepress build output
 .vuepress/dist
