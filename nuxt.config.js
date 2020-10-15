@@ -46,9 +46,14 @@ export default {
   build: {
   },
 
-  // generate先のディレクトリをdocsにする
+  // nuxt generateするときの設定
   generate: {
-    dir: "docs"
+
+    // generate先のディレクトリをdocsにする
+    dir: "docs",
+
+    // フォールバックHTMLを404.htmlにする
+    fallback: true
   }
 
 }
