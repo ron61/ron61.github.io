@@ -32,7 +32,7 @@ export default {
     '@nuxt/typescript-build'
   ],
 
-  buildDir: 'docs',
+  buildDir: './docs',
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
