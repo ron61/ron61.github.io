@@ -1,10 +1,11 @@
 <template>
-  <hello />
+  <div>
+    <Top />
+    <BasicInfo />
+  </div>
 </template>
 
 <script>
-import hello from '~/components/hello'
-
 export default {
 
 }

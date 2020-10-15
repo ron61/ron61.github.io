@@ -13,7 +13,7 @@ export default {
 <style scoped>
 h1 {
     font-size: 100px;
-    /* display: flex;
-    text-align: center; */
+    text-align: center;
+    margin: 0px;
 }
 </style>
