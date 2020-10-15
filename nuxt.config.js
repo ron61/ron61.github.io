@@ -32,7 +32,11 @@ export default {
     '@nuxt/typescript-build'
   ],
 
-  buildDir: './docs',
+  // ビルド先のディレクトリをdocsにする
+  buildDir: 'docs/',
+
+  // ソースディレクトリをsrcにする
+  // srcDir: 'src/',
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
@@ -40,5 +44,11 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  // generate先のディレクトリをdocsにする
+  generate: {
+    dir: "docs"
   }
+
 }
