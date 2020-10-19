@@ -1,0 +1,77 @@
+<template>
+    <div>
+        <div class="header">
+            <p>Web Log</p>
+            <ul>
+                <li>
+                    <nuxt-link to="/">Home</nuxt-link>
+                </li>
+                <li>
+                    <nuxt-link to="/blog">Blog</nuxt-link>
+                </li>
+            </ul>
+        </div>
+        <Nuxt />
+    </div>
+</template>
+
+<style>
+
+/* header */
+
+.header {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(224, 224, 224);
+    margin: 0px;
+}
+
+.header p {
+    margin: 0px;
+    padding: 30px 0px 0px;
+    font-family: Impact;
+    color: rgb(119, 119, 119);
+}
+
+.header ul {
+    text-align: right;
+    list-style: none;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header li {
+    display: inline;
+    padding-right: 20px;
+}
+
+/* 以下ブログ記事内のcss */
+
+.blog-post {
+    margin: 0% 32%;
+    color: rgb(110, 110, 110);
+}
+
+.blog-post h1 {
+    font-size: 40px;
+}
+
+.blog-post h2 {
+    border-left: thick solid rgb(110, 110, 110);
+    padding-left: 10px;
+}
+
+.blog-post h3 {
+    /* いつか描くかも */
+}
+
+.blog-post h4 {
+    /* いつか描くかも */
+}
+
+.blog-post .date {
+    text-align: right;
+}
+
+</style>
