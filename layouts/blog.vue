@@ -49,8 +49,12 @@
 /* 以下ブログ記事内のcss */
 
 .blog-post {
-    margin: 0% 32%;
+    margin: 7rem auto 0;
     color: rgb(110, 110, 110);
+    max-width: 640px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 6rem;
 }
 
 .blog-post h1 {
