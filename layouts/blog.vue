@@ -66,14 +66,6 @@
     padding-left: 10px;
 }
 
-.blog-post h3 {
-    /* いつか描くかも */
-}
-
-.blog-post h4 {
-    /* いつか描くかも */
-}
-
 .blog-post .date {
     text-align: right;
 }

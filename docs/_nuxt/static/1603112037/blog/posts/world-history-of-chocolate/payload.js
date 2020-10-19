@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/blog/posts/world-history-of-chocolate", {data:[{}],fetch:[],mutations:void 0});
