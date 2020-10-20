@@ -8,7 +8,7 @@
                     </div>
                     <div class="text-container">
                         <h2>{{title}}</h2>
-                        <p>{{date}}</p>
+                        <p class="date">{{date}}</p>
                         <p>{{description}}</p>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                     </div>
                     <div class="text-container">
                         <h2>{{title}}</h2>
-                        <p>{{date}}</p>
+                        <p class="date">{{date}}</p>
                         <p>{{description}}</p>
                     </div>
                 </div>
@@ -57,22 +57,6 @@ export default {
     background-color: rgb(189, 189, 189);
 }
 
-.pc{
-  display: block;
-}
-.sp{
-  display: none;
-}
- 
-@media only screen and (max-width: 767px){
-  .pc{
-    display: none;
-  }
-  .sp{
-    display: block;
-  }
-}
-
 .pc-card {
     display: flex;
 }
@@ -106,5 +90,9 @@ a {
     padding-right: 10px;
     text-align: left;
 } 
+
+.date {
+    font-size: 14px;
+}
 
 </style>

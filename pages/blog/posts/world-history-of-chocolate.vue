@@ -1,7 +1,12 @@
 <template>
-  <div class="blog-post">
-    <h1>【書評】チョコレートの世界史</h1>
-    <p class="date">2020/10/19</p>
+    <div class="blog-post">
+        <div class="pc">
+                <h1>【書評】チョコレートの世界史</h1>
+        </div>
+        <div class="sp">
+            <h1>【書評】チョコレートの世界史</h1>
+        </div>
+        <p class="date">2020/10/19</p>
         <p>
             『チョコレートの世界史』という本を読みました．
             ブックオフで470円で買いました．

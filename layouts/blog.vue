@@ -68,8 +68,12 @@
     padding-bottom: 6rem;
 }
 
-.blog-post h1 {
+.blog-post .pc h1 {
     font-size: 40px;
+}
+
+.blog-post .sp h1 {
+    font-size: 22px;
 }
 
 .blog-post h2 {
@@ -83,6 +87,22 @@
 
 .blog-post p {
     margin-top: 50px;
+}
+
+.pc{
+  display: block;
+}
+.sp{
+  display: none;
+}
+ 
+@media only screen and (max-width: 767px){
+  .pc{
+    display: none;
+  }
+  .sp{
+    display: block;
+  }
 }
 
 </style>
