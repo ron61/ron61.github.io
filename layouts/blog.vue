@@ -6,10 +6,15 @@
                 <li>
                     <nuxt-link to="/blog">Top</nuxt-link>
                 </li>
+                <li>
+                    <nuxt-link to="/blog/about">About</nuxt-link>
+                </li>
+                <li>
+                    <nuxt-link to="/blog/contact">Contact</nuxt-link>
+                </li>
             </ul>
         </div>
         <Nuxt />
-        <div class="fotter"></div>
     </div>
 </template>
 
@@ -53,9 +58,6 @@
     color: rgb(73, 72, 72);
 }
 
-.footer {
-    height: 100px;
-}
 
 /* 以下ブログ記事内のcss */
 
