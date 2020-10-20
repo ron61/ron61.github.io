@@ -12,6 +12,7 @@
             </ul>
         </div>
         <Nuxt />
+        <div class="fotter"></div>
     </div>
 </template>
 
@@ -23,7 +24,7 @@
     text-align: center;
     font-size: 60px;
     background-color: rgb(224, 224, 224);
-    margin: 0px;
+    margin: 0 0 50px;
 }
 
 .header p {
@@ -53,6 +54,10 @@
 
 .header a:hover {
     color: rgb(73, 72, 72);
+}
+
+.footer {
+    height: 100px;
 }
 
 /* 以下ブログ記事内のcss */

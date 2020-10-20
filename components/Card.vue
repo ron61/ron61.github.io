@@ -47,7 +47,7 @@ export default {
     background-color: rgb(240, 240, 240);
     text-align: center;
     display: inline-block;
-    margin: 50px 5% auto;
+    margin: 0 5% 50px;
     padding: 0;
     color: black;
     max-width: 900px;
