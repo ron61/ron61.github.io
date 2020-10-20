@@ -25,7 +25,7 @@
 .header {
     text-align: center;
     font-size: 60px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(231, 231, 231);
     margin: 0 0 50px;
 }
 

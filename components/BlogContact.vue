@@ -54,7 +54,7 @@ export default {
 }
 
 .background {
-    background-color: rgba(224, 224, 224);
+    background-color: rgb(240, 240, 240);
     padding-bottom: 30px;
     padding-top: 20px;
 }
@@ -64,6 +64,7 @@ export default {
     background-color: rgb(255, 197, 197);
     border: 0;
     padding: 10px 30px;
+    margin-top: 30px;
 }
 
 .submit-button:hover {
