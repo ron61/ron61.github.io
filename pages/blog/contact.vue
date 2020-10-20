@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <p>お問い合わせフォームです．なんでも送ってください．</p>
         <BlogContact />
     </div>
 </template>

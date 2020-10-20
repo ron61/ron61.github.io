@@ -54,7 +54,7 @@ export default {
 }
 
 .background {
-    background-color: rgba(223, 223, 223, 0.719);
+    background-color: rgba(224, 224, 224);
     padding-bottom: 30px;
     padding-top: 20px;
 }
@@ -83,6 +83,7 @@ input, textarea {
     max-width: 300px;
     font-size: 16px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    resize: none;
 }
 
 textarea {
@@ -90,7 +91,7 @@ textarea {
 }
 
 ::placeholder{
-  color:rgb(204, 204, 204)
+  color:rgb(212, 211, 211)
 }
 
 
