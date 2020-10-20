@@ -3,7 +3,7 @@
         <nuxt-link :to="link">
             <div class="card">
                 <div class="img-container">
-                    <img :src="imgSrc" :alt="imgAlt" width="150" height="auto"/>
+                    <img :src="imgSrc" :alt="imgAlt" width="100%" height="95%"/>
                 </div>
                 <div class="text-container">
                     <h2>{{title}}</h2>
@@ -32,9 +32,11 @@ export default {
 .container {
     background-color: rgb(240, 240, 240);
     text-align: center;
-    margin: 20px 20% auto;
+    display: inline-block;
+    margin: 50px 5% auto;
     padding: 0;
     color: black;
+    max-width: 900px;
 }
 
 .container:hover {
@@ -45,11 +47,16 @@ export default {
     display: flex;
 }
 
+.card h2 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
 a {
     color: black;
     text-decoration: none;
 }
-
+/* 
 img {
     width: 95%;
     position: absolute;
@@ -63,11 +70,11 @@ img {
     text-align: center;
     position: relative;
 }
-
+*/
 .text-container {
     padding-left: 20px;
     padding-right: 10px;
     text-align: left;
-}
+} 
 
 </style>

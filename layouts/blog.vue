@@ -51,6 +51,10 @@
     text-decoration: none;
 }
 
+.header a:hover {
+    color: rgb(73, 72, 72);
+}
+
 /* 以下ブログ記事内のcss */
 
 .blog-post {
