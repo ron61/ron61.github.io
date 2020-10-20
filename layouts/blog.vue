@@ -4,10 +4,7 @@
             <p>Web Log</p>
             <ul>
                 <li>
-                    <nuxt-link to="/">Home</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link to="/blog">Blog</nuxt-link>
+                    <nuxt-link to="/blog">Top</nuxt-link>
                 </li>
             </ul>
         </div>

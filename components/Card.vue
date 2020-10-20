@@ -97,6 +97,10 @@ a {
     top: 10px;
 }
 
+.pc .img-container {
+    max-width: 300px;
+}
+
 .text-container {
     padding-left: 20px;
     padding-right: 10px;
