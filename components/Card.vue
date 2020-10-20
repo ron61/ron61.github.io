@@ -1,14 +1,28 @@
 <template>
     <div class="container">
         <nuxt-link :to="link">
-            <div class="card">
-                <div class="img-container">
-                    <img :src="imgSrc" :alt="imgAlt" width="100%" height="95%"/>
+            <div class="pc">
+                <div class="pc-card">
+                    <div class="img-container">
+                        <img :src="imgSrc" :alt="imgAlt" width="95%" height="95%" />
+                    </div>
+                    <div class="text-container">
+                        <h2>{{title}}</h2>
+                        <p>{{date}}</p>
+                        <p>{{description}}</p>
+                    </div>
                 </div>
-                <div class="text-container">
-                    <h2>{{title}}</h2>
-                    <p>{{date}}</p>
-                    <p>{{description}}</p>
+            </div>
+            <div class="sp">
+                <div class="card">
+                    <div class="img-container">
+                        <img :src="imgSrc" :alt="imgAlt" width="95%" />
+                    </div>
+                    <div class="text-container">
+                        <h2>{{title}}</h2>
+                        <p>{{date}}</p>
+                        <p>{{description}}</p>
+                    </div>
                 </div>
             </div>
         </nuxt-link>
@@ -43,11 +57,27 @@ export default {
     background-color: rgb(189, 189, 189);
 }
 
-.card {
+.pc{
+  display: block;
+}
+.sp{
+  display: none;
+}
+ 
+@media only screen and (max-width: 767px){
+  .pc{
+    display: none;
+  }
+  .sp{
+    display: block;
+  }
+}
+
+.pc-card {
     display: flex;
 }
 
-.card h2 {
+h2 {
     font-size: 18px;
     font-weight: bolder;
 }
@@ -56,21 +86,17 @@ a {
     color: black;
     text-decoration: none;
 }
-/* 
-img {
-    width: 95%;
-    position: absolute;
-    top: 50%;
-    -webkit-transform : translateY(-50%);
-    left: 5%;
+
+.pc img {
+    position: relative;
+    top: 2.5%;
 }
 
-.img-container {
-    width: 200%;
-    text-align: center;
+.sp img {
     position: relative;
+    top: 10px;
 }
-*/
+
 .text-container {
     padding-left: 20px;
     padding-right: 10px;
