@@ -3,21 +3,18 @@
     "name": "blog",
     "path": "/blog",
     "component": "/Users/ron/Projects/my_portfolio/pages/blog/index.vue",
-    "chunkName": "pages/blog/index",
-    "_name": "_fd41a8ea"
+    "chunkName": "pages/blog/index"
   },
   {
     "name": "blog-posts-world-history-of-chocolate",
     "path": "/blog/posts/world-history-of-chocolate",
     "component": "/Users/ron/Projects/my_portfolio/pages/blog/posts/world-history-of-chocolate.vue",
-    "chunkName": "pages/blog/posts/world-history-of-chocolate",
-    "_name": "_ea640966"
+    "chunkName": "pages/blog/posts/world-history-of-chocolate"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/ron/Projects/my_portfolio/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2551925c"
+    "chunkName": "pages/index"
   }
 ]

@@ -21,7 +21,7 @@
 
 .header {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     background-color: rgb(224, 224, 224);
     margin: 0px;
 }
@@ -38,12 +38,17 @@
     list-style: none;
     font-size: 24px;
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 10px;
 }
 
 .header li {
     display: inline;
     padding-right: 20px;
+}
+
+.header a {
+    color: rgb(119, 119, 119);
+    text-decoration: none;
 }
 
 /* 以下ブログ記事内のcss */
@@ -68,6 +73,10 @@
 
 .blog-post .date {
     text-align: right;
+}
+
+.blog-post p {
+    margin-top: 50px;
 }
 
 </style>

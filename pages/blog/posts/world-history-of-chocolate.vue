@@ -1,18 +1,48 @@
 <template>
   <div class="blog-post">
-    <h1>Chocolate is beautiful!</h1>
+    <h1>【書評】チョコレートの世界史</h1>
     <p class="date">2020/10/19</p>
-    <h2>Introduction</h2>
-        <p>Chocolate is a preparation of roasted and ground cacao seeds that is made in the form of a liquid, paste, or in a block, which may also be used as a flavoring ingredient in other foods. </p>
-        <p>The earliest signs of use are associated with Olmec sites (within what would become Mexico’s post-colonial territory) suggesting consumption of chocolate beverages, dating from 19 centuries BCE.[1][2] The majority of Mesoamerican people made chocolate beverages, including the Maya and Aztecs.[3] The word chocolate is derived from the Spanish word chocolate, deriving in turn from the Classical Nahuatl word xocolātl.[4]</p>
-        <h3>History</h3>
-            <p>The seeds of the cacao tree have an intense bitter taste and must be fermented to develop the flavor. After fermentation, the beans are dried, cleaned, and roasted. The shell is removed to produce cacao nibs, which are then ground to cocoa mass, unadulterated chocolate in rough form. </p>
-        <h3>Meaning</h3>
-            <p>Once the cocoa mass is liquefied by heating, it is called chocolate liquor. The liquor may also be cooled and processed into its two components: cocoa solids and cocoa butter. Baking chocolate, also called bitter chocolate, contains cocoa solids and cocoa butter in varying proportions, without any added sugar. Powdered baking cocoa, which contains more fiber than cocoa butter, can be processed with alkali to produce dutch cocoa. Much of the chocolate consumed today is in the form of sweet chocolate, a combination of cocoa solids, cocoa butter or added vegetable oils, and sugar. Milk chocolate is sweet chocolate that additionally contains milk powder or condensed milk. White chocolate contains cocoa butter, sugar, and milk, but no cocoa solids.</p>
-    <h2>Tasty Chocolate</h2>
-        <p>Chocolate is one of the most popular food types and flavors in the world, and many foodstuffs involving chocolate exist, particularly desserts, including cakes, pudding, mousse, chocolate brownies, and chocolate chip cookies. Many candies are filled with or coated with sweetened chocolate. Chocolate bars, either made of solid chocolate or other ingredients coated in chocolate, are eaten as snacks. Gifts of chocolate molded into different shapes (such as eggs, hearts, coins) are traditional on certain Western holidays, including Christmas, Easter, Valentine's Day, and Hanukkah. Chocolate is also used in cold and hot beverages, such as chocolate milk and hot chocolate, and in some alcoholic drinks, such as creme de cacao.</p>
-        <p>Although cocoa originated in the Americas, West African countries, particularly Côte d'Ivoire and Ghana, are the leading producers of cocoa in the 21st century, accounting for some 60% of the world cocoa supply.</p>
-        <p>With some two million children involved in the farming of cocoa in West Africa, child slavery and trafficking were major concerns in 2018.[5][6] International attempts to improve conditions for children were failing because of persistent poverty, absence of schools, increasing world cocoa demand, more intensive farming of cocoa, and continued exploitation of child labor.[5]</p>
+        <p>
+            『チョコレートの世界史』という本を読みました．
+            ブックオフで470円で書いました．
+            けっこうおもしろかったです．
+        </p>
+        <p>
+            この本は，『チョコレートの世界史』という名前の通り，
+            世界史をチョコレートという軸から切り取った本です．
+            キーワードを挙げると，
+            新大陸の発見，インディオの虐殺，三角貿易，産業革命，WW2とかです．
+            世界史の教科書で読むより全然おもしろい．
+        </p>
+        <p>
+            加えて，労働者の問題にけっこうページを割いているのが特徴的でした．
+            これはキットカットを作ったメーカーの創業者が労働者の福祉にとても興味があって，
+            貧困問題にもずっと取り組んでいたから，その流れで出てきたという感じです．
+            資本家と労働者は敵対しているものと思っていたけど，こういう人もいるんですねー．
+        </p>
+        <p>
+            あと，知っているメーカーとか商品がたくさん出てきました．
+            キットカットとかゴディバとかネスレとか．．．
+            チョコレートはどこの国がどうみたいな話は全然知らなかったのですが，
+            イギリス，フランス，ベルギー，スイスとかいろいろな国でいろいろな道を経由して
+            チョコレートは育ってきたということがわかりました．たのしい！
+        </p>
+        <p>
+            また別の話ですが，
+            チョコレートの原料であるカカオには三つ品種があるそうです．
+            一つ目がクリオロ種．これが一番おいしいらしい．
+            二つ目がフォラステオ種．クリオロには味が劣る．
+            三つ目が両者を掛け合わせた，トリニタリオ種です．
+            チョコレートとかケーキとかを売っている店（洋菓子店？）で好きなお店があって，
+            「クリオロ」っていう名前なのですが，
+            あ，これが由来だったのか．
+        </p>
+        <p>
+            この前砂糖の歴史みたいな本を読んだんですけど，そこと共通する部分が多かったです．
+            新大陸の作物ということで，タバコとかトマトとかの歴史も見てみたいな．
+            似たようなの読むと覚えやすいし共通点とか相違点がわかっておもしろいので．
+            タバコとかいろいろゴタゴタがありそうでおもしろそう．
+        </p>
   </div>
 </template>
 
