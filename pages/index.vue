@@ -5,7 +5,7 @@
     <Skill />
     <Works />
     <Contact />
-    <nuxt-link to="/blog/">Blog</nuxt-link>
+    <nuxt-link to="/">Top</nuxt-link>
   </div>
 </template>
 
